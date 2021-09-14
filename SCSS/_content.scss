@@ -1,8 +1,7 @@
 body{
-	background-image: url(../IMG/country-quilt-dark/country-quilt-dark.png);
 	background-attachment: fixed;
-	@if $lang==es{background-image:url(../IMG/country-quilt-dark/country-quilt-dark.png);}
-	@else if $lang==fr{background-image:url(../IMG/country-quilt-dark/country-quilt-dark.png);}
+	@if $lang==es{background-image:url(../IMG/fondo-pag/fondo-pag.png);}
+	@else if $lang==fr{background-image:url(../IMG/fondo-pag/fondo-pag.png);}
 }
 
 h1, h2{

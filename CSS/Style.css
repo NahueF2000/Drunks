@@ -4,6 +4,7 @@
   padding: 0; }
 
 nav {
+  background-image: url(../IMG/fondo-pag/fondo-pag.png);
   padding: 1rem;
   font-size: 1.5rem; }
   nav ul {
@@ -20,9 +21,8 @@ nav {
   padding: 5px; }
 
 body {
-  background-image: url(../IMG/country-quilt-dark/country-quilt-dark.png);
-  background-attachment: fixed;
-  background-image: url(../IMG/country-quilt-dark/country-quilt-dark.png); }
+  background-image: url(../IMG/fondo-pag/fondo-pag.png);
+  background-attachment: fixed; }
 
 h1, h2 {
   font-family: "Amatic SC", cursive;
@@ -54,7 +54,10 @@ h1 {
   font-size: 1em; }
 
 h2 {
-  font-size: 2em; }
+  font-size: 2em;
+  background-color: whitesmoke;
+  font-weight: 800;
+  text-align: center; }
 
 h3 {
   font-size: 3em; }
@@ -73,3 +76,35 @@ footer {
   color: white; }
   footer p {
     text-align: center; }
+
+.p15{
+  padding: 15px;
+}
+
+/*LOGO WHATSAPP*/
+
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+  margin-top:16px;
+}
+
+/*FIN LOGO WHATSAPP*/

@@ -1,0 +1,6 @@
+/* paleta de colores */
+a: #990707 bordo
+b: #FF3030 rojo claro
+c: #E61414 rojo fuerte
+d: #00992B verde oscuro
+e: #15E650 verde claro

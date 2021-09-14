@@ -1,0 +1,22 @@
+nav{
+	padding: 1rem;
+	font-size: 1.5rem;
+	ul{
+		text-align: center;
+	}
+
+	li{
+		color: white;
+	}
+
+	a{
+		text-decoration: none;
+		font-family: $fontMain;
+		font-size: $fontSizeMedium;
+	}
+}
+
+#Logo{
+	width: $w-15;
+	padding: 5px;
+}

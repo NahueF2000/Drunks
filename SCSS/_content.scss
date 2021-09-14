@@ -1,0 +1,43 @@
+body{
+	background-image: url(../IMG/country-quilt-dark/country-quilt-dark.png);
+	background-attachment: fixed;
+	@if $lang==es{background-image:url(../IMG/country-quilt-dark/country-quilt-dark.png);}
+	@else if $lang==fr{background-image:url(../IMG/country-quilt-dark/country-quilt-dark.png);}
+}
+
+h1, h2{
+	font-family: $fontMain;
+	font-size: $fontSizeBig;
+}
+
+h3{
+	font-family: $fontMain;
+	text-align: $text-alignCenter;
+	color: white;
+}
+
+p{
+	font-family: $fontMain;
+	font-size: $fontSizeMedium;
+	line-height: 1.5em;
+	color: white;
+}
+
+main{
+	display: $d-flex;
+	padding: $p;
+}
+
+
+aside{
+	padding: $p;
+	background-color: $bg-info;
+}
+
+img{
+	width: $w-100;
+}
+
+@for $i from 1 through 6{
+	h#{$i}{font-size: 1em *$i}
+}
